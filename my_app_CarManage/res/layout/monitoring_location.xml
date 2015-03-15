@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.baidu.mapapi.map.MapView
+ 	    android:id="@+id/bmapsView"
+ 	    android:layout_width="fill_parent"
+ 	    android:layout_height="fill_parent"
+ 	    android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="45dp"
+    	android:layout_height="45dp"
+        android:src="@drawable/btn0" />
+    
+</RelativeLayout>
