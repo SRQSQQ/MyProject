@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_AlertDialogButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog按钮单击响应事件"  />
+
+    <Button
+        android:id="@+id/btn_AlertDialogItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog列表项单击响应事件" />
+
+    <Button
+        android:id="@+id/btn_AlertDialogSingleChoiceItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog单选列表项单击响应事件" />
+
+    <Button
+        android:id="@+id/btn_AlertDialogMultiChoiceItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AlertDialog多选列表项单击响应事件" />
+
+</LinearLayout>

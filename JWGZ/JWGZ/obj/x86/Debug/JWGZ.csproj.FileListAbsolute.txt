@@ -1,0 +1,217 @@
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\bin\Debug\JWGZ.exe
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\bin\Debug\JWGZ.pdb
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.Properties.Resources.resources
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csproj.GenerateResource.Cache
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.exe
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.pdb
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmMain.resources
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherUpdate.resources
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherInsert.resources
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csprojResolveAssemblyReference.cache
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryInsert.resources
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryUpdate.resources
+C:\Users\user\documents\visual studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.SC.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeInsert.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeUpdate.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartUpdate.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartInsert.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankInsert.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankUpdate.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassInsert.resources
+C:\Users\user\Documents\Visual Studio 2010\Projects\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\bin\Debug\JWGZ.exe.config
+C:\Users\user\Desktop\JWGZ\JWGZ\bin\Debug\JWGZ.exe
+C:\Users\user\Desktop\JWGZ\JWGZ\bin\Debug\JWGZ.pdb
+C:\Users\user\Desktop\JWGZ\JWGZ\bin\Debug\IrisSkin2.dll
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmDetail.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmMain.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.Properties.Resources.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.SC.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.HistoryUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryInsert.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryUpdate.resources
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.exe
+C:\Users\user\Desktop\JWGZ\JWGZ\obj\x86\Debug\JWGZ.pdb
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.exe.config
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.exe
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.pdb
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.exe
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.pdb
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\IrisSkin2.dll
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmDetail.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmMain.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.Properties.Resources.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.SC.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.HistoryUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryInsert.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryUpdate.resources
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.exe.config
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.exe
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.pdb
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.exe
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.pdb
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\bin\Debug\IrisSkin2.dll
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmDetail.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmMain.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.Properties.Resources.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.SC.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.HistoryUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csproj.GenerateResource.Cache
+H:\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.exe.config
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.exe
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.pdb
+H:\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.exe
+H:\教务工资管理系统\JWGZ\JWGZ\bin\Debug\JWGZ.pdb
+H:\教务工资管理系统\JWGZ\JWGZ\bin\Debug\IrisSkin2.dll
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csprojResolveAssemblyReference.cache
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmDetail.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmMain.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.Properties.Resources.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.SC.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.HistoryUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryInsert.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryUpdate.resources
+H:\教务工资管理系统\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\JWGZ.exe.config
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.exe
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.pdb
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\JWGZ.exe
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\JWGZ.pdb
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\IrisSkin2.dll
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmDetail.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmMain.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.Properties.Resources.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.SC.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.HistoryUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\JWGZ.exe.config
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.exe
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.pdb
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\JWGZ.exe
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\JWGZ.pdb
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\bin\Debug\IrisSkin2.dll
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmDetail.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.frmMain.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.Properties.Resources.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.SC.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ClassUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DeanUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.DepartUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ExperimentUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.HistoryUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.MasterUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.PracticeUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.RankUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.update.ResultUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TeacherUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryInsert.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.TheoryUpdate.resources
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\项目\教务工资管理系统\教务工资管理系统1.1\JWGZ\JWGZ\obj\x86\Debug\JWGZ.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+E:\visual studio 2010\Projects\RJPK\RJPK\bin\Debug\RJPK.exe
+E:\visual studio 2010\Projects\RJPK\RJPK\bin\Debug\RJPK.pdb
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.frmMain.resources
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.Properties.Resources.resources
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.csproj.GenerateResource.Cache
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.exe
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.pdb
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.SC.resources
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.DC.resources
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.updateCourse.resources
+E:\visual studio 2010\Projects\RJPK\RJPK\bin\Debug\13.ico
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.csprojResolveAssemblyReference.cache
+E:\visual studio 2010\Projects\RJPK\RJPK\obj\x86\Debug\RJPK.frmNumber.resources

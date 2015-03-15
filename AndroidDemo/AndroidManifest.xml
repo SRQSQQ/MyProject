@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androiddemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.androiddemo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+        	android:icon="@drawable/ic_launcher"
+            android:name=".DialogDemo"
+            android:label="对话框" >            
+        </activity>
+        <activity
+        	android:icon="@drawable/ic_launcher"
+            android:name=".TextViewDemo"
+            android:label="显示文本" >            
+        </activity>
+        <activity
+        	android:icon="@drawable/ic_launcher"
+            android:name=".TextViewDemoTwo"
+            android:label="显示文本2" >            
+        </activity>
+        <activity
+        	android:icon="@drawable/ic_launcher"
+            android:name=".TextViewDemoThree"
+            android:label="显示文本3" >            
+        </activity>
+    </application>
+
+</manifest>

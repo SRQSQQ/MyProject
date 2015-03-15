@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8DAC8702-D01E-40C3-9CE4-CCFE95E52376}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JWGZ</RootNamespace>
+    <AssemblyName>JWGZ</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="IrisSkin2">
+      <HintPath>.\IrisSkin2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Access, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bl\AdultAdo.cs" />
+    <Compile Include="bl\ClassAdo.cs" />
+    <Compile Include="bl\Dean_allowanceAdo.cs" />
+    <Compile Include="bl\DepartAdo.cs" />
+    <Compile Include="bl\ExperimentAdo.cs" />
+    <Compile Include="bl\MasterAdo.cs" />
+    <Compile Include="bl\PracticeAdo.cs" />
+    <Compile Include="bl\RankAdo.cs" />
+    <Compile Include="bl\ResultAdo.cs" />
+    <Compile Include="bl\TeacherAdo.cs" />
+    <Compile Include="bl\TheoryAdo.cs" />
+    <Compile Include="frmDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetail.Designer.cs">
+      <DependentUpon>frmDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="com\DbCommon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sc\SC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sc\SC.Designer.cs">
+      <DependentUpon>SC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\ClassInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\ClassInsert.Designer.cs">
+      <DependentUpon>ClassInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\ClassUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\ClassUpdate.Designer.cs">
+      <DependentUpon>ClassUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\DeanInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\DeanInsert.Designer.cs">
+      <DependentUpon>DeanInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\DeanUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\DeanUpdate.Designer.cs">
+      <DependentUpon>DeanUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\DepartInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\DepartInsert.Designer.cs">
+      <DependentUpon>DepartInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\DepartUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\DepartUpdate.Designer.cs">
+      <DependentUpon>DepartUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\ExperimentInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\ExperimentInsert.Designer.cs">
+      <DependentUpon>ExperimentInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\ExperimentUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\ExperimentUpdate.Designer.cs">
+      <DependentUpon>ExperimentUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\HistoryUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\HistoryUpdate.Designer.cs">
+      <DependentUpon>HistoryUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\MasterInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\MasterInsert.Designer.cs">
+      <DependentUpon>MasterInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\MasterUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\MasterUpdate.Designer.cs">
+      <DependentUpon>MasterUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\PracticeInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\PracticeInsert.Designer.cs">
+      <DependentUpon>PracticeInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\PracticeUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\PracticeUpdate.Designer.cs">
+      <DependentUpon>PracticeUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\RankInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\RankInsert.Designer.cs">
+      <DependentUpon>RankInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\RankUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\RankUpdate.Designer.cs">
+      <DependentUpon>RankUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\ResultInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\ResultInsert.Designer.cs">
+      <DependentUpon>ResultInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\ResultUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\ResultUpdate.Designer.cs">
+      <DependentUpon>ResultUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\TeacherInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\TeacherInsert.Designer.cs">
+      <DependentUpon>TeacherInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\TeacherUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\TeacherUpdate.Designer.cs">
+      <DependentUpon>TeacherUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\TheoryInsert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\TheoryInsert.Designer.cs">
+      <DependentUpon>TheoryInsert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="update\TheoryUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="update\TheoryUpdate.Designer.cs">
+      <DependentUpon>TheoryUpdate.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frmDetail.resx">
+      <DependentUpon>frmDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="sc\SC.resx">
+      <DependentUpon>SC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\ClassInsert.resx">
+      <DependentUpon>ClassInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\ClassUpdate.resx">
+      <DependentUpon>ClassUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\DeanInsert.resx">
+      <DependentUpon>DeanInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\DeanUpdate.resx">
+      <DependentUpon>DeanUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\DepartInsert.resx">
+      <DependentUpon>DepartInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\DepartUpdate.resx">
+      <DependentUpon>DepartUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\ExperimentInsert.resx">
+      <DependentUpon>ExperimentInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\ExperimentUpdate.resx">
+      <DependentUpon>ExperimentUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\HistoryUpdate.resx">
+      <DependentUpon>HistoryUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\MasterInsert.resx">
+      <DependentUpon>MasterInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\MasterUpdate.resx">
+      <DependentUpon>MasterUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\PracticeInsert.resx">
+      <DependentUpon>PracticeInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\PracticeUpdate.resx">
+      <DependentUpon>PracticeUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\RankInsert.resx">
+      <DependentUpon>RankInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\RankUpdate.resx">
+      <DependentUpon>RankUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\ResultInsert.resx">
+      <DependentUpon>ResultInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\ResultUpdate.resx">
+      <DependentUpon>ResultUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\TeacherInsert.resx">
+      <DependentUpon>TeacherInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\TeacherUpdate.resx">
+      <DependentUpon>TeacherUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\TheoryInsert.resx">
+      <DependentUpon>TheoryInsert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="update\TheoryUpdate.resx">
+      <DependentUpon>TheoryUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <!-- 为指定文本添加背景色 -->
+    <TextView
+        android:id="@+id/txtTwo_txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- 带边框文本 -->
+    <util.BorderTextView        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="带边框文本" />
+    
+    <!-- lineSpacingExtra设置行间距 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:text="第一行\n第二行间距5dp"
+        android:lineSpacingExtra="5dp" />
+    <!-- lineSpacingMultiplier设置行间距 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"       
+        android:text="第一行\n第二行间距为默认1.2倍"
+        android:lineSpacingMultiplier="1.2" />
+    
+    <!-- 在style设置行间距 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:text="第一行\n第二行间距为默认1.5倍"
+        style="@style/line_space" />
+    
+    <!-- 代码设置行间距 -->
+    <TextView
+        android:id="@+id/txtTwo_txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:text="第一行\n第二行" />
+    
+	<!-- 下一页 -->
+	<TextView 
+	   android:id="@+id/txtTwo_txt3"
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:padding="5dp"
+	   android:textSize="20sp"
+	   android:gravity="center" />
+    
+</LinearLayout>
