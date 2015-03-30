@@ -24,12 +24,13 @@ import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+import android.view.Window;
 
 public class ViewPagerActivity extends Activity {
 
     @Override
 	public void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
+		super.onCreate(savedInstanceState);		
         setContentView(R.layout.activity_view_pager);
         ViewPager mViewPager = (HackyViewPager) findViewById(R.id.view_pager);
 		setContentView(mViewPager);

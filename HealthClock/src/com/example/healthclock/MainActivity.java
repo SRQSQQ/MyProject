@@ -1,6 +1,8 @@
 package com.example.healthclock;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import tool.Ancient;
 import tool.DateJL;
@@ -16,8 +18,10 @@ import android.os.Message;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.View.OnTouchListener;
 import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.Button;
@@ -33,8 +37,11 @@ public class MainActivity extends ActionBarActivity {
 	TextView txt_lg8f;	//灵龟八法
 	TextView txt_zwlz;	//子午流注
 	
+	TextView txt_title;	//标题
+	
 	Button btn_acupoint;	//穴位图按钮
 	Button btn_poem;	//正经图按钮
+	Button btn_select;	//经穴查询按钮
 	
     String data = "";	//日期
     String lunarStr = "";	//甲子
@@ -50,7 +57,7 @@ public class MainActivity extends ActionBarActivity {
     Ancient ancient = new Ancient();	//获取古代时辰类对象
     DateJL dateJL = new  DateJL();
     TimeJL timeJL = new TimeJL();
-    SelectJL selectJL = new SelectJL();
+    SelectJL selectJL = new SelectJL();        
     
     private static final int msgKey = 1;
     
@@ -59,7 +66,7 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.main);
-        
+                        
         txt_date = (TextView) findViewById(R.id.txt_date);
         txt_jiazi = (TextView) findViewById(R.id.txt_jiazi);
         txt_date_jingluo = (TextView) findViewById(R.id.txt_date_jingluo);
@@ -68,6 +75,9 @@ public class MainActivity extends ActionBarActivity {
         txt_time_jingluo = (TextView) findViewById(R.id.txt_time_jingluo);
         txt_lg8f = (TextView) findViewById(R.id.txt_lg8f);
         txt_zwlz = (TextView) findViewById(R.id.txt_zwlz);
+        
+        txt_title = (TextView) findViewById(R.id.txt_title);
+        txt_title.setTypeface(LogoActivity.typeface);
                         
         Runnable runnable = new txtRunnable();       
         Thread thread = new Thread(runnable);
@@ -75,8 +85,36 @@ public class MainActivity extends ActionBarActivity {
         
         btn_acupoint = (Button) findViewById(R.id.btn_acupoint);
         btn_poem = (Button) findViewById(R.id.btn_poem);
+        btn_select = (Button) findViewById(R.id.btn_select);        
+        
+        //经穴查询界面
+        btn_select.setTypeface(LogoActivity.typeface);
+        btn_select.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO 自动生成的方法存根
+				Intent intent = new Intent(MainActivity.this, SelectActivity.class);
+				startActivity(intent);
+			}
+		});
+        
+        btn_select.setOnTouchListener(new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				// TODO 自动生成的方法存根
+	            if(event.getAction()==MotionEvent.ACTION_DOWN){  
+	                v.setBackgroundResource(R.drawable.btn_contacts_youni_pressed);  
+	            }else if(event.getAction()==MotionEvent.ACTION_UP){  
+	                v.setBackgroundResource(R.drawable.btn_contacts_youni_normal);  
+	            }  
+				return false;
+			}
+		});
         
         //穴位大全界面
+        btn_acupoint.setTypeface(LogoActivity.typeface);
         btn_acupoint.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -87,7 +125,22 @@ public class MainActivity extends ActionBarActivity {
 			}
 		});
         
+        btn_acupoint.setOnTouchListener(new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				// TODO 自动生成的方法存根
+	            if(event.getAction()==MotionEvent.ACTION_DOWN){  
+	                v.setBackgroundResource(R.drawable.btn_contacts_youni_pressed);  
+	            }else if(event.getAction()==MotionEvent.ACTION_UP){  
+	                v.setBackgroundResource(R.drawable.btn_contacts_youni_normal);  
+	            }  
+				return false;
+			}
+		});
+        
         //十二正经界面
+        btn_poem.setTypeface(LogoActivity.typeface);                                                                                                   
         btn_poem.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -95,6 +148,20 @@ public class MainActivity extends ActionBarActivity {
 				// TODO 自动生成的方法存根
 				Intent intent = new Intent(MainActivity.this, SimpleSampleActivity.class);
 				startActivity(intent);
+			}
+		});
+        
+        btn_poem.setOnTouchListener(new OnTouchListener() {
+			
+			@Override
+			public boolean onTouch(View v, MotionEvent event) {
+				// TODO 自动生成的方法存根
+	            if(event.getAction()==MotionEvent.ACTION_DOWN){  
+	                v.setBackgroundResource(R.drawable.btn_contacts_youni_pressed);  
+	            }else if(event.getAction()==MotionEvent.ACTION_UP){  
+	                v.setBackgroundResource(R.drawable.btn_contacts_youni_normal);  
+	            }  
+				return false;
 			}
 		});
     }
@@ -144,46 +211,59 @@ public class MainActivity extends ActionBarActivity {
     	calendar = Calendar.getInstance();
     	lunar = new Lunar(calendar);
     	
+//    	typeface = Typeface.createFromAsset(getAssets(), "fonts/STKAITI.TTF");
+    	
         //获取系统日期
         data = "";
         data = calendar.get(Calendar.YEAR)+ "-" + (calendar.get(Calendar.MONTH) + 1) + "-" + calendar.get(Calendar.DAY_OF_MONTH);
         
         txt_date.setText(data);
+        txt_date.setTypeface(LogoActivity.typeface);
         
         //根据系统日期获取甲子                         
         lunarStr = "";         
-        lunarStr += lunar.cyclical() + "年";    
+        lunarStr += lunar.cyclical_day();    
           
         txt_jiazi.setText(lunarStr);
+        txt_jiazi.setTypeface(LogoActivity.typeface);
         
         //根据日期获取日期经络
         DateJingLuo = dateJL.DateJingLuo(lunarStr.substring(0, 1));
         
         txt_date_jingluo.setText(DateJingLuo);
+        txt_date_jingluo.setTypeface(LogoActivity.typeface);
         
         //获取系统时间
         time = "";
-        time = calendar.get(Calendar.HOUR_OF_DAY) + "-" + calendar.get(Calendar.MINUTE) + "-" + calendar.get(Calendar.SECOND);
+/*        time = calendar.get(Calendar.HOUR_OF_DAY) + "-" + calendar.get(Calendar.MINUTE) + "-" + calendar.get(Calendar.SECOND);*/
+        SimpleDateFormat formatter = new SimpleDateFormat ("HH:mm:ss");
+        Date curDate = new Date(System.currentTimeMillis());//获取当前时间
+        time = formatter.format(curDate);
         
         txt_time.setText(time);
+        txt_time.setTypeface(LogoActivity.typeface);
         
         //根据系统时间获取古代时辰        
         shichen = "";        
         shichen = ancient.convertTime(String.valueOf(calendar.get(Calendar.HOUR_OF_DAY)));
         
-        txt_shichen.setText(shichen);	 
+        txt_shichen.setText(shichen);
+        txt_shichen.setTypeface(LogoActivity.typeface);
         
         //根据时间获取时间经络
         TimeJingLuo = timeJL.TimeJingLuo(shichen);
         
         txt_time_jingluo.setText(TimeJingLuo);
+        txt_time_jingluo.setTypeface(LogoActivity.typeface);
                 
         //根据日期时间算出对应经络
-        lg8f = "灵龟八法：\t" + selectJL.getJL(lunarStr.substring(0, 2), shichen.substring(0, 1)).split("#")[0];
-        zwlz = "子午流注：\t" + selectJL.getJL(lunarStr.substring(0, 2), shichen.substring(0, 1)).split("#")[1];
+        lg8f = selectJL.getJL(lunarStr.substring(0, 2), shichen.substring(0, 1)).split("#")[0];
+        zwlz = selectJL.getJL(lunarStr.substring(0, 2), shichen.substring(0, 1)).split("#")[1];
         
         txt_lg8f.setText(lg8f);
+        txt_lg8f.setTypeface(LogoActivity.typeface);        
         txt_zwlz.setText(zwlz);
+        txt_zwlz.setTypeface(LogoActivity.typeface);
     }
     
     @Override

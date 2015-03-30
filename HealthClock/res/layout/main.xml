@@ -7,7 +7,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/header_height"
-        android:background="@color/background_color" >
+        android:background="@drawable/btn_contacts_youni_normal"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/my_textSize_one" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -21,59 +32,75 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <TextView
-            android:id="@+id/txt_date"
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/avatar_info_bg"            
             android:gravity="center"
-            android:textSize="@dimen/my_textSize_one" />
+            android:orientation="vertical"
+            android:layout_weight="1" >
 
-        <TextView
-            android:id="@+id/txt_jiazi"
+            <TextView
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                                
+                android:gravity="center"
+                android:textSize="@dimen/my_textSize_one" />
+
+            <TextView
+                android:id="@+id/txt_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                                
+                android:gravity="center"
+                android:textSize="@dimen/my_textSize_one" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/avatar_info_bg"            
             android:gravity="center"
-            android:textSize="@dimen/my_textSize_one" />
+            android:orientation="vertical"
+            android:layout_weight="1" >
 
-        <TextView
-            android:id="@+id/txt_date_jingluo"
+            <TextView
+                android:id="@+id/txt_jiazi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                               
+                android:gravity="center"
+                android:textSize="@dimen/my_textSize_one" />
+
+            <TextView
+                android:id="@+id/txt_shichen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                               
+                android:gravity="center"
+                android:textSize="@dimen/my_textSize_one" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/avatar_info_bg"            
+            android:visibility="gone"
             android:gravity="center"
-            android:textSize="@dimen/my_textSize_one" />
-    </LinearLayout>
+            android:orientation="vertical"
+            android:layout_weight="1" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/txt_date_jingluo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                                
+                android:gravity="center"
+                android:textSize="@dimen/my_textSize_one" />
 
-        <TextView
-            android:id="@+id/txt_time"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="@dimen/my_textSize_one" />
-
-        <TextView
-            android:id="@+id/txt_shichen"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="@dimen/my_textSize_one" />
-
-        <TextView
-            android:id="@+id/txt_time_jingluo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="@dimen/my_textSize_one" />
+            <TextView
+                android:id="@+id/txt_time_jingluo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"                                
+                android:gravity="center"
+                android:textSize="@dimen/my_textSize_one" />
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -85,13 +112,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/avatar_info_bg"        
         android:gravity="center"
         android:orientation="vertical" >
 
         <TextView
             android:id="@+id/txt_lg8f"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content"            
             android:layout_weight="1"
             android:gravity="center"
             android:textSize="@dimen/my_textSize_two" />
@@ -99,10 +127,10 @@
         <TextView
             android:id="@+id/txt_zwlz"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="wrap_content"            
             android:layout_weight="1"
-            android:gravity="center"
-            android:textSize="@dimen/my_textSize_two" />
+            android:gravity="center"                        
+            android:textSize="@dimen/my_textSize_two" />	<!-- android:visibility="gone" -->
     </LinearLayout>
 
     <LinearLayout
@@ -116,34 +144,48 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal" >
 
-        <TextView
-            android:id="@+id/textView1"
+        <Button
+            android:id="@+id/btn_select"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1" />
+            android:layout_weight="1"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/btn_contacts_youni_normal"
+            android:height="@dimen/header_height"
+            android:padding="4dp"
+            android:text="@string/btn_three"            
+            android:textColor="@color/text_color" />	<!-- android:background="@color/background_color" -->
 
         <Button
             android:id="@+id/btn_acupoint"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:height="@dimen/header_height"
+            android:layout_weight="1"
             android:layout_marginBottom="2dp"
-            android:background="@color/background_color"
-            android:text="@string/btn_one"
-            android:textColor="@color/text_color"
-            android:textSize="@dimen/my_textSize_one" />
+            android:layout_marginTop="2dp"
+            android:background="@drawable/btn_contacts_youni_normal"
+            android:height="@dimen/header_height"
+            android:padding="4dp"
+            android:text="@string/btn_one"            
+            android:textColor="@color/text_color" />	<!-- android:visibility="gone" --><!-- android:textSize="@dimen/my_textSize_one" -->
 
         <Button
             android:id="@+id/btn_poem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:height="@dimen/header_height"
-            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
             android:layout_marginBottom="2dp"
-            android:background="@color/background_color"
-            android:text="@string/btn_two"
-            android:textColor="@color/text_color"
-            android:textSize="@dimen/my_textSize_one" />
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/btn_contacts_youni_normal"
+            android:height="@dimen/header_height"
+            android:padding="4dp"
+            android:text="@string/btn_two"            
+            android:textColor="@color/text_color" />	<!-- android:visibility="gone" -->        
     </LinearLayout>
 
 </LinearLayout>

@@ -30,12 +30,21 @@
         <activity
             android:name=".ViewPagerActivity"
             android:icon="@drawable/ic_launcher"
-            android:label="穴位大全" >
+            android:label="@string/btn_one" >
         </activity>
         <activity
             android:name=".SimpleSampleActivity"
             android:icon="@drawable/ic_launcher"
-            android:label="十二正经" >
+            android:label="@string/btn_two" >
+        </activity>
+        <activity
+            android:name=".SelectActivity"
+            android:icon="@drawable/ic_launcher"
+            android:label="@string/btn_three" >
+        </activity>
+        <activity
+            android:name=".ShowSelectActivity"
+            android:icon="@drawable/ic_launcher" >
         </activity>
     </application>
 

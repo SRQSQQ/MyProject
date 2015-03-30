@@ -9,6 +9,8 @@ public class Lunar {
 	private int year;
 	private int month;
 	private int day;
+	private int M_month;
+	private int D_day;
 	private boolean leap;
 	final static String chineseNumber[] = { "一", "二", "三", "四", "五", "六", "七",
 			"八", "九", "十", "十一", "十二" };
@@ -92,6 +94,70 @@ public class Lunar {
 		return (cyclicalm(num));
 	}
 
+	//干支纪日法
+	final public String cyclical_day() {
+		final String[] Gan = new String[] { "甲", "乙", "丙", "丁", "戊", "己", "庚",
+				"辛", "壬", "癸" };
+		final String[] Zhi = new String[] { "子", "丑", "寅", "卯", "辰", "巳", "午",
+				"未", "申", "酉", "戌", "亥" };
+		int G = 0;	//G % 10天干
+		int H = 0;	//H % 12地支
+		int X = 0;	//世纪减1
+		int Y = 0;	//年份后两位
+		int M = 0;	//月份
+		int D = 0;	//日数
+		int I = 0;	//奇偶月
+		int num_G = 0;	//天干数组下标
+		int num_H = 0;	//地支数组下标
+		
+		X = year / 100;
+		if(M_month == 1) {
+			Y = year % 100 - 1;
+			M = 13;
+		}else if (M_month == 2) {
+			Y = year % 100 - 1;
+			M = 14;
+		}else {
+			Y = year % 100;
+			M = M_month;
+		}	
+		D = D_day;
+		
+		if(0 == M % 2) {
+			I = 6;
+		}else if(0 != M % 2) {
+			I = 0;
+		}
+				
+		if (2000 == year) {
+			G = 4 * X + (int)(X / 4) + 5 * Y + (int)(Y / 4) + (int)(3 * (M + 1) / 5) + D - 3 - 1;
+			H = 8 * X + (int)(X / 4) + 5 * Y + (int)(Y / 4) + (int)(3 * (M + 1) / 5) + D + 7 + I - 1;
+		}else {
+			G = 4 * X + (int)(X / 4) + 5 * Y + (int)(Y / 4) + (int)(3 * (M + 1) / 5) + D - 3;
+			H = 8 * X + (int)(X / 4) + 5 * Y + (int)(Y / 4) + (int)(3 * (M + 1) / 5) + D + 7 + I;
+		}
+		
+		if(0 == G % 10) {
+			num_G = Gan.length - 1;
+		}else {
+			num_G = G % 10 - 1;
+		}
+		if (0 == H % 12) {
+			num_H = Zhi.length - 1;
+		}else {
+			num_H = H % 12 - 1;
+		}
+		
+//		System.out.println("X = " + X);
+//		System.out.println("Y = " + Y);
+//		System.out.println("M = " + M);
+//		System.out.println("D = " + D);
+//		System.out.println("G = " + G);
+//		System.out.println("H = " + H);
+//		System.out.println("干支 = " + Gan[num_G] + Zhi[num_H]);	
+		return (Gan[num_G] + Zhi[num_H]);
+	}
+	
 	public String getLunarMonthString() {
 		// TODO Auto-generated method stub
 		return null;
@@ -102,6 +168,8 @@ public class Lunar {
 		int yearCyl, monCyl, dayCyl;
 		int leapMonth = 0;
 		Date baseDate = null;
+		M_month = cal.get(Calendar.MONTH) + 1;
+		D_day = cal.get(Calendar.DAY_OF_MONTH);
 		try {
 			baseDate = chineseDateFormat.parse("1900年1月31日");
 		} catch (ParseException e) {

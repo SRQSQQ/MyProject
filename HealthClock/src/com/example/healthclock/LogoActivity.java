@@ -2,6 +2,7 @@ package com.example.healthclock;
 
 import tool.DBManager;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v7.app.ActionBarActivity;
@@ -12,11 +13,15 @@ public class LogoActivity extends ActionBarActivity {
 	
 	public DBManager dbHelper;
 	
+	static Typeface typeface;	//通过自定义字体生成字体对象
+	
 	@Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.logo_main);
+        
+        typeface = Typeface.createFromAsset(getAssets(), "fonts/regular.otf");
         
         //导入数据库
         dbHelper = new DBManager(this);
