@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:gravity="center_vertical"
+        android:background="@drawable/btn_contacts_youni_normal" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="@dimen/btn_hw"
+            android:layout_height="@dimen/btn_hw"
+            android:layout_marginLeft="4dp"
+            android:visibility="invisible" />
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/my_textSize_one" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="@dimen/btn_hw"
+            android:layout_height="@dimen/btn_hw"
+            android:layout_marginRight="4dp"
+            android:background="@drawable/icon_list_add" />
+
+    </LinearLayout>
+    
+    <com.example.widget.ListViewCompat
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff4f7f9"
+        android:cacheColorHint="#00000000"
+        android:divider="#dddbdb"
+        android:dividerHeight="1.0px"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="none" />
+
+</LinearLayout>
